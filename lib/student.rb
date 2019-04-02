@@ -42,9 +42,9 @@ class Student
       end 
     end
     
-    def self.create 
+    def self.create(name, grade)
       sql = <<-SQL
-        INSERT INTO students (name, grade)
+        
     end 
 
   end 
