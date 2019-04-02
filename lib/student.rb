@@ -44,7 +44,7 @@ class Student
     
     def self.create(name, grade)
       sql = <<-SQL
-        student=self.new()
+        student=self.new(name, grade)
     end 
 
   end 
